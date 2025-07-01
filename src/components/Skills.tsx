@@ -11,7 +11,7 @@ const Skills: React.FC = () => {
         { name: 'Dimensionamento de Sistemas Fotovoltaicos', level: 90 },
         { name: 'Simulações de Geração', level: 85 },
         { name: 'Análise de Viabilidade Econômica', level: 60 },
-        { name: '####pensando', level: 82 }
+        { name: 'Cálculos de dimensionamento', level: 82 }
       ]
     },
     {
