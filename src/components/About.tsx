@@ -61,11 +61,11 @@ const About: React.FC = () => {
             <div className="bg-gradient-to-r from-purple-50 to-purple-100 p-6 rounded-lg">
               <div className="flex items-center space-x-3 mb-3">
                 <Target className="h-6 w-6 text-purple-600" />
-                <h3 className="text-lg font-semibold text-gray-900">Desenvolvimento de Aplicações Web</h3>
+                <h3 className="text-lg font-semibold text-gray-900">Programação</h3>
               </div>
               <p className="text-gray-700">
                 Experiência em desenvolvimento de sistema web utilizando 
-                PHP, HTML, CSS e JavaScript para gestão e organização de projetos.
+                PHP, HTML, CSS e JavaScript para gestão e organização de projetos. Desenvolvimento de ferramentas para automatização de tarefas utilizando Python.
               </p>
             </div>
           </div>
