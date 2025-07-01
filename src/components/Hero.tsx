@@ -7,9 +7,15 @@ const Hero: React.FC = () => {
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-20">
         <div className="text-center">
           <div className="mb-8">
-            <div className="w-32 h-32 mx-auto mb-6 bg-gradient-to-br from-blue-600 to-green-600 rounded-full flex items-center justify-center text-white text-4xl font-bold shadow-lg">
-              AC
-            </div>
+<div className="w-48 h-48 mx-auto mb-6 bg-gradient-to-br from-blue-600 to-green-600 rounded-full flex items-center justify-center shadow-lg overflow-hidden">
+  <img
+    src="/profile.png"
+    alt="Profile"
+    className="w-full h-full object-cover"
+  />
+</div>
+
+
             <h1 className="text-4xl md:text-6xl font-bold text-gray-900 mb-4">
               Anderson de Oliveira
               <span className="block text-blue-600">Castro Correia</span>
@@ -29,26 +35,16 @@ const Hero: React.FC = () => {
             </div>
             <div className="flex items-center space-x-2">
               <Mail className="h-4 w-4" />
-              <span>anderson.castro@email.com</span>
+              <span>andersoon089@gmail.com</span>
             </div>
           </div>
 
-          <div className="flex flex-wrap justify-center gap-4 mb-8">
-            <button className="inline-flex items-center px-6 py-3 bg-blue-600 text-white font-semibold rounded-lg hover:bg-blue-700 transition-colors shadow-md">
-              <Download className="h-4 w-4 mr-2" />
-              Download CV
-            </button>
-            <button className="inline-flex items-center px-6 py-3 border border-gray-300 text-gray-700 font-semibold rounded-lg hover:bg-gray-50 transition-colors">
-              <Mail className="h-4 w-4 mr-2" />
-              Entre em Contato
-            </button>
-          </div>
 
           <div className="flex justify-center space-x-6">
-            <a href="#" className="text-gray-600 hover:text-blue-600 transition-colors">
+            <a href="https://www.linkedin.com/in/anderson-castro-correia/" className="text-gray-600 hover:text-blue-600 transition-colors">
               <Linkedin className="h-6 w-6" />
             </a>
-            <a href="#" className="text-gray-600 hover:text-blue-600 transition-colors">
+            <a href="https://github.com/anderson-csto" className="text-gray-600 hover:text-blue-600 transition-colors">
               <Github className="h-6 w-6" />
             </a>
           </div>

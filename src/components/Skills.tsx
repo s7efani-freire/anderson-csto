@@ -10,19 +10,19 @@ const Skills: React.FC = () => {
       skills: [
         { name: 'Dimensionamento de Sistemas Fotovoltaicos', level: 90 },
         { name: 'Simulações de Geração', level: 85 },
-        { name: 'Análise de Viabilidade Econômica', level: 88 },
-        { name: 'Elaboração de Layouts', level: 82 }
+        { name: 'Análise de Viabilidade Econômica', level: 60 },
+        { name: '####pensando', level: 82 }
       ]
     },
     {
-      title: 'Desenvolvimento Web',
+      title: 'Programação',
       icon: <Code className="h-6 w-6" />,
       color: 'from-blue-500 to-purple-600',
       skills: [
-        { name: 'PHP', level: 75 },
-        { name: 'HTML/CSS', level: 85 },
-        { name: 'JavaScript', level: 80 },
-        { name: 'Sistemas Web Internos', level: 78 }
+        { name: 'PHP', level: 30 },
+        { name: 'HTML/CSS', level: 100 },
+        { name: 'JavaScript', level: 25 },
+        { name: 'Phyton', level: 50 }
       ]
     },
     {
@@ -42,9 +42,9 @@ const Skills: React.FC = () => {
       color: 'from-purple-500 to-pink-600',
       skills: [
         { name: 'PCP - Planejamento e Controle da Produção', level: 80 },
-        { name: 'Atendimento ao Cliente', level: 90 },
+        { name: 'Atendimento ao Cliente', level: 100 },
         { name: 'Gestão de Projetos', level: 75 },
-        { name: 'Análise de Obras', level: 85 }
+        { name: 'Análise de Obras', level: 70 }
       ]
     }
   ];

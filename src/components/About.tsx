@@ -10,7 +10,7 @@ const About: React.FC = () => {
             Sobre Mim
           </h2>
           <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-            Engenheiro Eletricista formado pelo IFBA, com experiência sólida em energia solar 
+            Engenheiro Eletricista formado pelo IFBA, com experiência em energia solar 
             e paixão por automação industrial e sistemas inteligentes.
           </p>
         </div>
@@ -61,11 +61,11 @@ const About: React.FC = () => {
             <div className="bg-gradient-to-r from-purple-50 to-purple-100 p-6 rounded-lg">
               <div className="flex items-center space-x-3 mb-3">
                 <Target className="h-6 w-6 text-purple-600" />
-                <h3 className="text-lg font-semibold text-gray-900">Desenvolvimento Web</h3>
+                <h3 className="text-lg font-semibold text-gray-900">Desenvolvimento de Aplicações Web</h3>
               </div>
               <p className="text-gray-700">
-                Experiência em desenvolvimento de sistemas web utilizando 
-                PHP, HTML, CSS e JavaScript para gestão e organização.
+                Experiência em desenvolvimento de sistema web utilizando 
+                PHP, HTML, CSS e JavaScript para gestão e organização de projetos.
               </p>
             </div>
           </div>

@@ -35,10 +35,10 @@ const Header: React.FC<HeaderProps> = ({
     <header className="fixed top-0 left-0 right-0 bg-white/95 backdrop-blur-sm z-50 shadow-sm">
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16">
-          <div className="flex items-center space-x-2">
-            <Zap className="h-6 w-6 text-blue-600" />
-            <span className="text-xl font-bold text-gray-900">Anderson Castro</span>
-          </div>
+    <div className="flex items-center space-x-2">
+      <img src="/logo-ac.png" alt="Logo" className="h-10 w-10" />
+      <span className="text-xl font-bold text-gray-900">Anderson Castro</span>
+    </div>
 
           {/* Desktop Navigation */}
           <nav className="hidden md:flex space-x-8">

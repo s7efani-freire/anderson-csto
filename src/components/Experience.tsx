@@ -11,7 +11,7 @@ const Experience: React.FC = () => {
       location: 'Vitória da Conquista, BA',
       type: 'Tempo integral',
       description: 'Responsável pelo atendimento ao cliente na etapa de pós-venda da empresa. As atividades incluem elaboração de projetos para instalações residenciais e comerciais, acompanhamento de obras em campo. Também desenvolveu sistema web interno, utilizando PHP, HTML, CSS e JavaScript, para organização e gestão das demandas dos clientes.',
-      skills: ['Desenvolvimento web', 'Suporte pós-venda', 'PHP', 'JavaScript']
+      skills: ['Desenvolvimento de Aplicações', 'Suporte pós-venda', 'Projetos fotovotaicos', 'Visita de campo']
     },
     {
       title: 'Consultor de energia solar',
