@@ -24,7 +24,7 @@ const Hero: React.FC = () => {
               Engenheiro Eletricista
             </p>
             <p className="text-lg text-gray-500 mb-8">
-              Especialista em Energia Solar & Automação Industrial
+              Energia Solar & Automação Industrial
             </p>
           </div>
 

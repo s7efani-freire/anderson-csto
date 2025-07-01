@@ -42,7 +42,7 @@ const About: React.FC = () => {
                 <h3 className="text-lg font-semibold text-gray-900">Energia Solar</h3>
               </div>
               <p className="text-gray-700">
-                Especialista em dimensionamento, simulações de geração e análise 
+                Dimensionamento, simulações de geração e análise 
                 de viabilidade econômica de sistemas fotovoltaicos.
               </p>
             </div>
